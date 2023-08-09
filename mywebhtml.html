@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mywebcss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b4b02c195f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sectionhome">
+        <nav class="navbar page-bg fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="https://img.freepik.com/premium-vector/illustration-girl-holding-open-book-modern-flat-style-illustration-reading-book_549897-2788.jpg?w=360" class="logo-img">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">Subscribe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white"  href="#">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="top-session text-center d-flex flex-column justify-content-center ">
+            <div class="top-session-card">
+                <h1 class="page-heading">My BLOGS</h1>
+                <h2 class="page-sub-heading">Create and Publish Blogs</h2>
+                <div class="row  mt-3  d-flex flex-row justify-content-center">
+                    <button class="btn-log-in" onclick="display('sectionlogin')">Log In</button>
+                    
+
+                    <button class="btn-sign-in" onclick="display('sectionsignup')">Sign up</button>
+                </div>
+                    
+            </div>
+        </div>
+
+        <div class="all-post-session">
+            <div class="mt-5 row flex-row justify-content-center ">
+                <div class="reading-book-card text-center">
+                    <p>Unleash your creativity through the art of blogging. With each post, you paint a canvas of knowledge, <br>
+                        passion, and insight. Your blog is your voice, and the internet is your gallery. Start today, <br>
+                        and watch your ideas transform into inspiration for others.</p>
+                </div>
+                <img src="https://disorient.co/wp-content/uploads/2020/10/social-justice-activist-blogger.jpg" class="reading-book" />            
+            </div>
+            
+
+            <div class=" mt-5 row flex-row justify-content-center ">
+                <img src="https://images.unsplash.com/photo-1607473329732-92a7587e6b9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80" class="reading-book-1" />
+                <div class="reading-book-card-1 text-center">
+                    <p>Dive into the boundless realm of blogging. Your unique perspective is a gift that only you  <br>
+                        can share. Whether it's a hobby, expertise, or a tale to tell, your words hold <br>
+                        the power to captivate, educate, and motivate. Embrace the <br>
+                        keyboard and start crafting your digital legacy.</p>
+                </div> 
+            </div>
+        </div>
+
+        <div class="d-flex flex-column justify-content-center" style="margin-top: 170px;">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="all-post-here ">
+                        <h1 class="all-post-here-heading">All Post</h1>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center" style="margin-top: 70px;">
+                <div>
+                    <div class="d-flex flex-row justify-content-center" >
+                        <div class="post-card shadow ">
+                            <img src="https://i.pinimg.com/originals/b8/71/53/b87153b78afeee7bcf5d3165d4be758e.jpg" alt="" class="post-card-img">
+                            <div class="row">
+                                <div class="id-logo-container d-flex flex-column justify-content-center">
+                                    <a href="#">
+                                        <i class="fa-solid fa-user-tie id-logo"></i>
+                                    </a>
+                                </div>
+                                <h1 class="post-card-user-name">Elvish</h1>
+                                
+    
+                                <a type="button" class="custom-button ml-auto" data-toggle="modal" data-target="#exampleModal" href="#">
+                                    <i class='fa fa-ellipsis-v three-dot'></i>
+                                </a>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                                                    Share
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-facebook share-icon-facebook"></i>
+                                                </a>
+    
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-instagram share-icon-instagram"></i>
+                                                </a>
+    
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-twitter share-icon-twitter"></i>
+                                                </a>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <h1 class="post-card-heading">8 must-read books</h1>
+                            <p class="post-card-para">Create a blog post subtitle that summarizes your post in a few short, punchy 
+                                sentences and entices your audience to continue reading....</p>
+                        </div>
+    
+                        <div class="post-card shadow ">
+                            <img src="https://quotess.net/wp-content/uploads/2018/01/quotes-about-life-self-love-%E2%9C%A8-poetry-by-noor-unnahar-art-journal-journaling-ideas-ins.jpg" alt="" class="post-card-img">
+                            <div class="row">
+                                <div class="id-logo-container d-flex flex-column justify-content-center">
+                                    <a href="#">
+                                        <i class="fa-solid fa-user-tie id-logo"></i>
+                                    </a>
+                                </div>
+                                <h1 class="post-card-user-name">Elvish</h1>
+                                
+    
+                                <a type="button" class="custom-button ml-auto" data-toggle="modal" data-target="#exampleModal" href="#">
+                                    <i class='fa fa-ellipsis-v three-dot'></i>
+                                </a>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                                                    Share
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-facebook share-icon-facebook"></i>
+                                                </a>
+    
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-instagram share-icon-instagram"></i>
+                                                </a>
+    
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-twitter share-icon-twitter"></i>
+                                                </a>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <h1 class="post-card-heading"><a href="#">You want your child to read these books</a></h1>
+                            <p class="post-card-para">Create a blog post subtitle that summarizes your post 
+                                in a few short, punchy sentences and entices your audience to continue reading....</p>
+                        </div>
+                    </div>
+    
+                    <div class="d-flex flex-row justify-content-center" >
+                        <div class="post-card shadow ">
+                            <img src="https://images.pexels.com/photos/7080696/pexels-photo-7080696.jpeg?cs=srgb&dl=pexels-furkanfdemir-7080696.jpg&fm=jpg" alt="" class="post-card-img">
+                            <div class="row">
+                                <div class="id-logo-container d-flex flex-column justify-content-center">
+                                    <a href="#">
+                                        <i class="fa-solid fa-user-tie id-logo"></i>
+                                    </a>
+                                </div>
+                                <h1 class="post-card-user-name">Elvish</h1>
+                                
+    
+                                <a type="button" class="custom-button ml-auto" data-toggle="modal" data-target="#exampleModal" href="#">
+                                    <i class='fa fa-ellipsis-v three-dot'></i>
+                                </a>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                                                    Share
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-facebook share-icon-facebook"></i>
+                                                </a>
+    
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-instagram share-icon-instagram"></i>
+                                                </a>
+    
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-twitter share-icon-twitter"></i>
+                                                </a>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <h1 class="post-card-heading"><a href="#">“The Traitor’s Daughter”</a></h1>
+                            <p class="post-card-para">Create a blog post subtitle that 
+                                summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+                        </div>
+    
+                        <div class="post-card shadow ">
+                            <img src="https://miro.medium.com/v2/resize:fit:1400/1*UeUNPvUlm7Wzb0GaGEsc4A.jpeg" alt="" class="post-card-img">
+                            <div class="row">
+                                <div class="id-logo-container d-flex flex-column justify-content-center">
+                                    <a href="#">
+                                        <i class="fa-solid fa-user-tie id-logo"></i>
+                                    </a>
+                                </div>
+                                <h1 class="post-card-user-name">Elvish</h1>
+                                
+    
+                                <a type="button" class="custom-button ml-auto" data-toggle="modal" data-target="#exampleModal" href="#">
+                                    <i class='fa fa-ellipsis-v three-dot'></i>
+                                </a>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                                                    Share
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-facebook share-icon-facebook"></i>
+                                                </a>
+    
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-instagram share-icon-instagram"></i>
+                                                </a>
+    
+                                                <a href="">
+                                                    <i class="fa-brands fa-square-twitter share-icon-twitter"></i>
+                                                </a>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <h1 class="post-card-heading"><a href="#">The art of writing</a></h1>
+                            <p class="post-card-para">Create a blog post subtitle 
+                                that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        <div id="newBlogs" class="d-flex flex-column justify-content-center">
+            
+        </div>
+        
+        </div>        
+
+        <div style="padding-left: 135px;" >
+            <div class="row mb-3" style="margin-top: 63px;">
+                <i class="fa-solid fa-file-pen" style="color: rgb(187, 90, 133); font-size: 50px; "></i>
+                <h1 class="create-heading ml-4">Write Your Own Blog Here ➣</h1>
+            </div>
+            
+            <div class="texarea-page mb-5">
+                <textarea name="text" id="createBlog" cols="140" rows="5" class="texarea-page"></textarea>
+                <br>
+                <label for="blogImage" style="color: dimgrey;">Give Image Lnk</label>
+                <input class="ml-3" type="text" id="blogImage" />
+                <div class="">
+                    <button id="blogsave" class="fill-btn">Save</button>
+                    <button id="blogcancel" class="fill-btn">Clear</button>
+                </div>
+                
+            </div>
+
+            
+        </div>
+
+
+    </div>
+
+    <div id="sectionlogin" >
+            <div class="d-flex flex-row justify-content-center shadow">
+                
+                <div class="log-in-card">
+                    <h1 class="log-in-card-heading">Log In</h1>
+                    <div>
+                        <label class="log-in-card-para" for="loguser">Name *</label>
+                        <input type="text" id="loguser" class="user-input-design" />
+                    </div>
+
+                    <br>
+                    <div>
+                        <label class="log-in-card-para" for="logmail">Email *</label>
+                        <input type="text" id="logmail" class="user-input-design" />
+                    </div>
+
+                    <br>
+                    <div style="margin-bottom: 90px;">
+                        <label class="log-in-card-para" for="logpassword">Password *</label>
+                        <input type="password" id="logpassword" class="user-input-design" />
+                    </div>
+
+                    <button class="fill-btn">Submit</button>
+
+                    <button class="fill-btn ml-3" onclick="display('sectionhome')">back</button>
+
+                    <p class="text-right">Don't Have an account?<span style="color: blue; text-decoration: underline;" onclick="display('sectionsignup')">Sign Up</span> </p>
+                    
+
+                </div>
+                
+            </div>    
+    </div>
+
+    <div id="sectionsignup" >
+        <div class="d-flex flex-row justify-content-center shadow">
+            
+            <div class="log-in-card">
+                <h1 class="log-in-card-heading">Sign In</h1>
+                <div>
+                    <label class="log-in-card-para" for="signuser">Name *</label>
+                    <input type="text" id="signuser" class="user-input-design" />
+                </div>
+
+                <br>
+                <div>
+                    <label class="log-in-card-para" for="signmail">Email *</label>
+                    <input type="text" id="signmail" class="user-input-design" />
+                </div>
+                <br>
+
+                <div>
+                    <label class="log-in-card-para" for="signpassword">Password *</label>
+                    <input type="text" id="signpassword" class="user-input-design" />
+                </div>
+
+                <br>
+                <div style="margin-bottom: 90px;">
+                    <label class="log-in-card-para" for="signConpassword">Confirm Password *</label>
+                    <input type="password" id="signConpassword" class="user-input-design" />
+                </div>
+
+                <button class="fill-btn">Submit</button>
+
+                <button class="fill-btn ml-3" onclick="display('sectionhome')">back</button>
+
+
+                <p class="text-right">Already Have an account?<span style="color: blue; text-decoration: underline;" onclick="display('sectionlogin')">Log Up</span> </p>
+                
+
+            </div>
+            
+        </div>    
+</div>
+    
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="mywebjs.js"></script>
+</body>
+</html>
+
+

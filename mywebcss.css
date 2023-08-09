@@ -1,0 +1,257 @@
+.page-bg {
+    background-color: rgb(187, 90, 133);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-img {
+    height: 15%;
+    width: 15%;
+    border-radius: 220px;
+}
+
+.top-session {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/0*uylTEaTvhCJaXwPl");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.top-session-card {
+    background-color:  rgb(187, 90, 133);
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+    border-radius: 3%;
+    padding: 35px;
+}
+
+.page-heading {
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-decoration: underline;
+}
+
+.page-sub-heading {
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+
+.btn-log-in {
+    background-color: white;
+    color: rgb(187, 90, 133);
+    border-width: 0;
+    border-radius: 8px;
+    height: 40px;
+    width: 80px;
+    margin: 15px;
+}
+
+.btn-sign-in {
+    background-color: rgb(187, 90, 133);
+    color: white;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    height: 40px;
+    width: 80px;
+    margin: 15px;
+}
+
+.all-post-session {
+    background-color: white;
+    padding: 10px;
+}
+
+.all-post-session-heading {
+    color: rgb(94, 90, 90);
+}
+
+.reading-book-card {
+    background-color: white;
+    color: black;
+    border-color: grey;
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 10px;
+    height: 20vh;
+    margin-top: 35px;
+}
+
+.reading-book {
+    height: 260px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.reading-book-card-1 {
+    background-color: white;
+    color: black;
+    border-color: grey;
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 10px;
+    height: 20vh;
+    margin-top: 85px;
+}
+
+
+.reading-book-1 {
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.all-post-here {
+    background-color: rgb(187, 90, 133);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 65vw;
+    height: 70px;
+}
+
+.all-post-here-heading {
+    color: white;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+.id-logo-container {
+    background-color: grey;
+    height: 47px;
+    width: 50px;
+    text-align: center;
+    border-radius: 28px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.id-logo {
+    color: rgb(59, 59, 59);
+    font-size: 23px;
+}
+
+.post-card {
+    background-color: gainsboro;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    
+}
+
+.post-card-img {
+    width: 30vw;
+}
+
+.post-card-user-name {
+    color: black;
+    font-family:'display';
+    font-size: 29px;
+    margin-top: 15px;
+    margin-left: 11px;
+}
+
+.three-dot {
+    color: black;
+    margin-right: 25px;
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+.share-icon-facebook {
+    color: rgb(60, 116, 201);
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.share-icon-instagram {
+    color: white;
+    background-color: purple;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.share-icon-twitter {
+    color: rgb(60, 116, 201);
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.post-card-heading {
+    color: rgb(59, 59, 59);
+    font-family: 'display';
+    width: 25vw;
+    margin-left: 15px;
+}
+
+.post-card-para {
+    color: rgb(59, 59, 59);
+    font-family: 'display';
+    width: 25vw;
+    margin-left: 15px;
+}
+
+.log-in-card{
+    background-color: whitesmoke;
+    width: 45vw;
+    margin-top: 105px;
+    border-radius: 13px;
+    padding-left: 20px;
+    
+}
+
+.log-in-card-heading {
+    color: rgb(187, 90, 133);
+    text-align: center;
+    font-family: Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.log-in-card-para {
+    color: rgb(187, 90, 133);
+    font-family: Times, serif;
+    font-size: 25px;
+}
+
+.user-input-design {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: dimgray;
+    border-style: solid;
+    width: 25vw;
+    height: 35px;
+    margin-bottom: 9px;
+    margin-left: 15px;
+}
+
+.fill-btn {
+    color: white;
+    background: rgb(187, 90, 133);
+    border-radius: 19px;
+    border-width: 0;
+    height: 35px;
+    width: 80px;
+}
+
+.create-heading {
+    color: rgb(187, 90, 133);
+    font-family: monospace;
+}
+
+
+.blog-image {
+    width: 30vw;
+}
+
+.blog-card-heading {
+    color: black;
+    font-family: 'display';
+    width: 25vw;
+    font-size: 35px;
+}
